@@ -1,2 +1,3 @@
 # treby
-Treby is my project for developing sites.
+Treby is our project for developing sites.
+ty debilko

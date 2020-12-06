@@ -1,4 +1,4 @@
 # Treby
-Treby is our project for making own presentations on website.
+Treby is our project for making own presentation on website.
 
 

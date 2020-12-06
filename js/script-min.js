@@ -1,5 +1,8 @@
+//Vars
+var id = 1;
+var max = 5;
+var min = 1;
 
-//MIN
 
 //Actions
 Mousetrap.bind('right', function() { 
@@ -21,7 +24,16 @@ Mousetrap.bind('left', function() {
 Mousetrap.bind('h', function() { 
 		document.getElementById("help").classList.add('show');
 });	
-function siteNo(str) {
+
+
+
+//FUNCTIONS
+
+
+
+
+
+	function siteNo(str) {
 		if (str == "") {
 			
 		} else {
@@ -38,15 +50,6 @@ function siteNo(str) {
 	}
 
 
-
-
-//html
-
-//Vars
-var id = 1;
-var max = 5;
-var min = 1;
-//FUNCTIONS
 
 
 
@@ -76,7 +79,7 @@ function back(){
 			//slide 5
 			siteNo(5);
 		}
-}	
+}
 
 
 function next(){
@@ -104,10 +107,15 @@ function next(){
 
 
 
+// INTRO
+var intro = "<h2>Mluvní cvičení</h2><h1>HTML – CSS – JS</h1><h3>Tom Stejskal</h3><h4>Zmáčkněte mezerník</h4>";
 
-
-
-
-
-
-
+//Co to je HTML
+var whathtml = `<h1 class="clasich1">Co je to HTML?</h1>
+			<img src="img/text.png">`;
+//Co to je CSS
+var whatCss = `<h1 class="clasich1">Co je to CSS?</h1>
+			<img src="img/textcss.png">`;
+//Co to je JS
+var whatJs = `<h1 class="clasich1">Co je to JS?</h1>
+			<img src="img/textjs.png">`;

@@ -1,0 +1,76 @@
+{
+	"stejs": [
+		{
+			"title" : "Nadpis jako Lorem",
+			"subtitle" : "sub tajtl pro fešáky",
+			"img" : "img/imag.png",
+			"text" : "text",
+			"bg" : "linear-gradient(45deg, rgb(37, 214, 226), rgb(230, 52, 150))"
+		},
+		{
+			"title" : "",
+			"subtitle" : "hTML je funy xddd",
+			"img" : "img/imag.png",
+			"text" : "text",
+			"bg" : "linear-gradient(45deg, rgb(5, 214, 26), rgb(230, 52, 150))"
+		},
+		{
+			"title" : "",
+			"subtitle" : "CSS tk",
+			"img" : "img/mc.png",
+			"text" : "vid semiiik",
+			"bg" : "linear-gradient(45deg, rgb(58, 14, 226), rgb(230, 52, 150))"
+		},
+		{
+			"title" : "",
+			"subtitle" : "Java scripti jak bys rekl",
+			"img" : "img/imag.png",
+			"text" : "potvrdi vam zas tajnej semiik",
+			"bg" : "linear-gradient(45deg, rgb(125, 14, 2), rgb(230, 52, 150))"
+		},
+		{
+			"title" : "",
+			"subtitle" : "a co teprf phpko ",
+			"img" : "img/imag.png",
+			"text" : "loremíčke impsumíček",
+			"bg" : "linear-gradient(45deg, rgb(259, 14, 226), rgb(230, 52, 150))"
+		}
+	],
+	"tril": [
+		{
+			"title" : "Nadpis jako Lorem",
+			"subtitle" : "sub tajtl pro fešáky",
+			"img" : "img/imag.png",
+			"text" : "text",
+			"bg" : "linear-gradient(45deg, rgb(37, 214, 226), rgb(230, 52, 150))"
+		},
+		{
+			"title" : "",
+			"subtitle" : "hTML je funy",
+			"img" : "img/imag.png",
+			"text" : "text",
+			"bg" : "linear-gradient(45deg, rgb(5, 214, 26), rgb(230, 52, 150))"
+		},
+		{
+			"title" : "",
+			"subtitle" : "CSS tk",
+			"img" : "img/mc.png",
+			"text" : "vid semiiik",
+			"bg" : "linear-gradient(45deg, rgb(58, 14, 226), rgb(230, 52, 150))"
+		},
+		{
+			"title" : "",
+			"subtitle" : "Java scripti jak bys rekl",
+			"img" : "img/imag.png",
+			"text" : "potvrdi vam zas tajnej semiik",
+			"bg" : "linear-gradient(45deg, rgb(125, 14, 2), rgb(230, 52, 150))"
+		},
+		{
+			"title" : "",
+			"subtitle" : "a co teprf phpko ",
+			"img" : "img/imag.png",
+			"text" : "loremíčke impsumíček",
+			"bg" : "linear-gradient(45deg, rgb(259, 14, 226), rgb(230, 52, 150))"
+		}
+	]
+}

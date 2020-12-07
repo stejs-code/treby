@@ -79,10 +79,6 @@ class Decode extends Json {
 $json[$num] = new Decode($json[$name][$num]["title"],$json[$name][$num]["img"],$json[$name][$num]["subtitle"],$json[$name][$num]["text"],$json[$name][$num]["bg"]);
 
 
-
-
-
-
 ?>
 
 

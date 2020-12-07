@@ -18,12 +18,12 @@ Mousetrap.bind('s', function() {
 
 
 function back(){
-    console.log('function back was called' + slide + 1);
+    console.log('function back was called' + slide++);
 
 }
 
 function next(){
-    console.log('function next was called' + slide + 1);
+    console.log('function next was called' + slide++);
 }
 
 function showslide() {

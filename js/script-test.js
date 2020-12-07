@@ -18,7 +18,7 @@ Mousetrap.bind('s', function() {
 
 
 function back(){
-    console.log('function back was called' + slide++);
+    console.log('function back was called' + slide--);
 
 }
 

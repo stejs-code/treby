@@ -1,7 +1,7 @@
 //Variables
-slide = 1
-min = 1
-
+var slide = 1
+var min = 1
+var max = 0
 
 //Actions
 Mousetrap.bind('right', function() { 
@@ -46,8 +46,18 @@ function back(){
 }
 
 function next(){
-	console.log('function next was called ' + slide++);
-	siteNo(slide)
+	if(slide==sessionStorage.getItem("slides")){
+		console.log('Ur at last slide.... u stupid.');
+		max++;
+		if(max == 20){
+			console.log('Ur at last slide.... u inteligent.');
+			max = 0;
+		}
+    }
+    else{
+		console.log('function back was called ' + slide++);
+		siteNo(slide)
+    };
 }
 
 function load(loadslide){

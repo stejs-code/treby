@@ -23,7 +23,9 @@ function back(){
     if(slide==1){
         console.log('Ur at first slide.... u stupid.')
     }
-    else{};
+    else{
+        console.log('function back was called ' + slide--);
+    };
     
 
 }

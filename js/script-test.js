@@ -6,61 +6,17 @@ min = 1
 //Actions
 Mousetrap.bind('right', function() { 
     next();
-}
-
-)
+})
 
 Mousetrap.bind('left', function() { 
     back();
-}
-
-)
+})
 
 Mousetrap.bind('s', function() { 
     showslide();
-}
+})
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//wewef
-/*
-
-
-
-
-we
-fwef
-we
-fw
-efw
-ef
-wef
-wef
-w
-fw
-ef
-wefewf
-we
-fw
-efw
-ef*/)
-
-//FUNCTIONS
-
+//Functions
 
 function back(){
     if(slide==1){
@@ -79,22 +35,5 @@ function next(){
 
 function showslide() {
     console.log(slide);
-    /*wedwe
-    fw
-    efw
-    few
-    ef
-    wef
-    wef
-    w
-    fw
-    efw
-    ef
-    ew
-    fw
-    ef
-    wwe
-    fwe
-    fwefwfw*/
-    console.log('LLL')
+
 }

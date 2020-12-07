@@ -2,7 +2,7 @@
 var id = 1;
 var max = 5;
 var min = 1;
-
+var t = "idk"
 
 //Actions
 Mousetrap.bind('right', function() { 
@@ -22,7 +22,7 @@ Mousetrap.bind('left', function() {
 		back();
 });	
 Mousetrap.bind('h', function() { 
-		document.getElementById("help").classList.add('show');
+		document.getElementById("t").innerHTML = "idk"
 });	
 
 
@@ -73,29 +73,6 @@ function back(){
 			//slide 3
 			siteNo(3);
 		} else if (id == 4){
-			//slide 4
-			siteNo(4);
-		} else if (id == 5){
-			//slide 5
-			siteNo(5);
-		}
-}
-
-
-function next(){
-	if(max == id){
-
-		} else {
-			id++;
-		}
-	if(id == 2){
-		//slide 2
-		siteNo(2);
-		
-		} else if (id == 3){
-			//slide 3
-			siteNo(3);
-		}else if (id == 4){
 			//slide 4
 			siteNo(4);
 		} else if (id == 5){

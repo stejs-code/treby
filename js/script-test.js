@@ -1,5 +1,7 @@
 //Variables
 slide = 1
+min = 1
+
 
 //Actions
 Mousetrap.bind('right', function() { 
@@ -18,12 +20,16 @@ Mousetrap.bind('s', function() {
 
 
 function back(){
-    console.log('function back was called' + slide--);
+    if(slide==1){
+        console.log('Ur at first slide.... u stupid.')
+    }
+    else{};
+    
 
 }
 
 function next(){
-    console.log('function next was called' + slide++);
+    console.log('function next was called ' + slide++);
 }
 
 function showslide() {

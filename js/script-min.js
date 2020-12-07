@@ -107,6 +107,7 @@ function next(){
 
 
 
+
 // INTRO
 var intro = "<h2>Mluvní cvičení</h2><h1>HTML – CSS – JS</h1><h3>Tom Stejskal</h3><h4>Zmáčkněte mezerník</h4>";
 
